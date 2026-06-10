@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustentabilidade: Cuidando do Planeta para o Futuro</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1>🌎 Cuidando do Planeta para o Futuro</h1>
+
+        <p>
+            Sustentabilidade: pequenas ações hoje para garantir um amanhã melhor.
+        </p>
+
+        <button class="tema" onclick="alternarTema()">
+            🌙 Modo Escuro
+        </button>
+
+    </header>
+
+    <nav>
+
+        <a href="#inicio">Início</a>
+        <a href="#importancia">Importância</a>
+        <a href="#acoes">Ações</a>
+        <a href="#agrinho">Agrinho</a>
+
+    </nav>
+
+    <main>
+
+        <section id="inicio">
+
+            <h2>O que é Sustentabilidade?</h2>
+
+            <p>
+                Sustentabilidade é o conjunto de ações que busca atender
+                às necessidades do presente sem comprometer as futuras
+                gerações. Ela envolve o cuidado com o meio ambiente,
+                a economia e a sociedade.
+            </p>
+
+            <p>
+                Quando utilizamos os recursos naturais de forma consciente,
+                ajudamos a preservar a natureza e garantimos melhor qualidade
+                de vida para todos.
+            </p>
+<img src="imagem3.png"
+     alt="Sustentabilidade e preservação ambiental">
+        </section>
+
+        <section id="importancia">
+
+            <h2>Preservando o Meio Ambiente</h2>
+
+            <p>
+                A sustentabilidade é fundamental para garantir que os recursos
+                naturais continuem disponíveis para as futuras gerações.
+                Através de atitudes conscientes, como reciclar, economizar água
+                e preservar áreas verdes, todos podem contribuir para um planeta
+                mais saudável.
+            </p>
+            <img src="imagem2.png"
+     alt="paisagem sutentavel">
+
+
+        </section>
+
+        <section id="acoes">
+
+            <h2>Ações Sustentáveis</h2>
+
+            <ul>
+                <li>♻️ Separar e reciclar o lixo.</li>
+                <li>💧 Economizar água.</li>
+                <li>💡 Evitar desperdício de energia.</li>
+                <li>🌳 Plantar árvores.</li>
+                <li>🚲 Utilizar meios de transporte sustentáveis.</li>
+            </ul>
+
+        </section>
+
+        <section id="agrinho">
+
+            <h2>🌱 Agrinho e Sustentabilidade</h2>
+
+            <p>
+                O Programa Agrinho incentiva atitudes responsáveis que ajudam
+                a preservar o meio ambiente e fortalecer a relação entre o
+                campo e a cidade.
+            </p>
+
+            <p>
+                A produção de alimentos, a preservação dos recursos naturais
+                e a conscientização da população são fundamentais para um
+                futuro sustentável.
+            </p>
+<img src="imagem1.png"
+     alt="Ações sustentáveis">
+     <img src="imagem5.png"
+     alt="vida sustentável">
+        </section>
+
+        <section id="mensagem-ambiental">
+
+            <h2>🌿 Mensagem Ambiental</h2>
+
+            <p>
+                Clique no botão para receber uma mensagem de conscientização.
+            </p>
+
+            <button onclick="mostrarMensagem()">
+                Mostrar Mensagem
+            </button>
+
+            <p id="mensagem"></p>
+
+        </section>
+
+        <section id="contador-arvores">
+
+            <h2>🌳 Árvores Plantadas Virtualmente</h2>
+
+            <p>
+                Cada clique representa uma árvore plantada simbolicamente.
+            </p>
+
+            <h3 id="contador">0</h3>
+
+            <button onclick="plantarArvore()">
+                Plantar Árvore
+            </button>
+
+        </section>
+
+        <section>
+
+            <h2>💚 Nosso Compromisso</h2>
+
+            <p>
+                Cuidar do planeta é uma responsabilidade de todos.
+                Com pequenas atitudes diárias podemos reduzir impactos
+                ambientais e construir um futuro melhor para as próximas
+                gerações.
+            </p>
+
+        </section>
+<section id="quiz">
+
+    <h2>📝 Quiz da Sustentabilidade</h2>
+
+    <p>
+        Responda às perguntas e descubra seu nível de consciência ambiental.
+    </p>
+
+    <div class="pergunta">
+
+        <p><strong>1. Você separa o lixo reciclável?</strong></p>
+
+        <select id="p1">
+            <option value="">Escolha</option>
+            <option value="1">Sim</option>
+            <option value="0">Não</option>
+        </select>
+
+    </div>
+
+    <div class="pergunta">
+
+        <p><strong>2. Você economiza água no dia a dia?</strong></p>
+
+        <select id="p2">
+            <option value="">Escolha</option>
+            <option value="1">Sim</option>
+            <option value="0">Não</option>
+        </select>
+
+    </div>
+
+    <div class="pergunta">
+
+        <p><strong>3. Você apaga as luzes ao sair dos cômodos?</strong></p>
+
+        <select id="p3">
+            <option value="">Escolha</option>
+            <option value="1">Sim</option>
+            <option value="0">Não</option>
+        </select>
+
+    </div>
+
+    <div class="pergunta">
+
+        <p><strong>4. Você valoriza alimentos produzidos de forma sustentável?</strong></p>
+
+        <select id="p4">
+            <option value="">Escolha</option>
+            <option value="1">Sim</option>
+            <option value="0">Não</option>
+        </select>
+
+    </div>
+
+    <button onclick="corrigirQuiz()">
+        Ver Resultado
+    </button>
+
+    <p id="resultadoQuiz"></p>
+
+</section>
+
+    </main>
+
+    <footer>
+
+        <p>
+            Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente
+        </p>
+
+        <p>
+            Agrinho-2026
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
