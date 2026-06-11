@@ -23,6 +23,7 @@ O projeto está alinhado ao tema do Concurso Agrinho:
 * HTML5
 * CSS3
 * JavaScript
+* imagens geradas pela IA Gemini
 
 ## Funcionalidades
 
@@ -42,19 +43,9 @@ O projeto está alinhado ao tema do Concurso Agrinho:
 * style.css → estilização e responsividade.
 * script.js → funcionalidades e interatividade.
 
-## Aprendizados
-
-Durante o desenvolvimento deste projeto foram utilizados conhecimentos de HTML, CSS e JavaScript, incluindo:
-
-* Criação de páginas web.
-* Estilização de elementos.
-* Manipulação do DOM.
-* Variáveis e funções.
-* Estruturas condicionais.
-* Interação com o usuário.
 ## Orientação
 
-O desenvolvimento do projeto contou com orientação pedagógica da professora Suelen, que auxiliou na organização das atividades e no processo de aprendizagem.
+O desenvolvimento do projeto contou com orientação pedagógica da professora Suelen, que auxiliou na organização das atividades e no processo de aprendizagem, assim como as aulas do realizadas dentro do site Alura.com
 
 ## Tema Agrinho
 
